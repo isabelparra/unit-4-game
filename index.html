@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+<head>
+
+    <meta charset="UTF-8">
+    <title>CrystalsCollector Game</title>    
+
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel='stylesheet' type='text/css' href='assets/css/style.css'>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>CrystalsCollector!</h1>
+    </header>
+
+    <div id='instructions'>
+        <ul>
+            <li>You will be given a random number to start.</li>
+            <li>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</li>
+            <li>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</li>
+            <li>The value of each crystal is hidden from you until you click on it.</li>
+            <li>Each time the game starts, the game will change the values of each crystal.</li><br><Br><br>
+        </ul>
+    </div>
+   
+    <div class='numGuess'>
+        <span id='targetNumber'></span>
+    </div>
+
+    <div class='scoreboard'>
+        <h2>Wins: 
+            <span id= 'wins'></span>
+        </h2>
+        <h2>Losses:
+            <span id= 'losses'></span>
+        </h2>
+    </div>
+
+    <div class='crystals'>
+        <img src='assets/images/blue.png' class='crystalImg' id='one' alt='Blue Crystal'>
+        <img src='assets/images/green.png' class='crystalImg' id='two' alt='Green Crystal'>
+        <img src='assets/images/purple.png' class='crystalImg' id='three' alt='Purple Crystal'>
+        <img src='assets/images/pink.png' class='crystalImg' id='four' alt='Pink Crystal'>
+    </div>
+
+    <div class='totalScore'>
+        <h2>Your total score is: </h2>
+    </div>
+
+    <div id='userInput'>
+        <div id='currentScore'></div>
+    </div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>

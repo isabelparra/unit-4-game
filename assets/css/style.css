@@ -1,0 +1,60 @@
+body {
+    background-image: url("https://github.com/isabelparra/Basic-Portfolio/blob/master/assets/images/subtle_background.png?raw=true");   
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+h1 {
+    background-color: rgb(196, 99, 9);
+    color: white;
+    font-size: 24px;
+    line-height: 36px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+#instructions {
+    background-color: rgb(241, 223, 163);
+    color: green;
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#targetNumber {
+    background-color: green;
+    color: black;
+    width: 200px;
+    padding: 40px;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.scoreboard {
+    background-color: lightblue;
+    float: left;
+  
+    margin: 10px;
+}
+
+.totalScore {
+    clear: both;
+    background-color: teal;
+    width: 300px;
+}
+
+#userInput {
+    margin-top: 10px;
+    background-color: teal;
+    width: 300px;
+}
+
+.crystals {
+    clear: both;
+}
+
+.crystalImg {
+    height: 75px;
+}
